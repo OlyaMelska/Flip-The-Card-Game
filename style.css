@@ -1,0 +1,95 @@
+.love {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/love.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.laugh {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/laugh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.mad {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/mad.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.unicorn {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/unicorn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.star {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/star.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.brain {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/brain.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.funny {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/funny.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.laugh {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/laugh.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.evil {
+    height: 150px;
+    border: 1px solid #0aaff4;
+    background: url("./Images/evil.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+* {
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.hidden {
+    background: #abe4fc;
+    border: 1px solid #0aaff4;
+}

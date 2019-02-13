@@ -1,11 +1,13 @@
-let love = document.getElementsByClassName("love");
 let boxes = document.getElementsByClassName("box");
-let one = document.getElementById("1");
 let clickCounts = 0;
 let selectedOne;
 let selectedSecond;
 let winsCount = 0;
 let displayWins = document.getElementById("wins");
+let clickedOne = false;
+let clickedSecond = false;
+
+let emoji = [{ value: "", wasGuessed: false }];
 
 for (let i = 0; i < boxes.length; i++) {
   boxes[i].classList.add("hidden");
@@ -17,10 +19,12 @@ for (let i = 0; i < boxes.length; i++) {
       winsCount++;
       displayWins.innerHTML = winsCount;
       clickItem(boxes[i]);
+      clickCounts = 0;
     } else {
       selectedOne.classList.add("hidden");
       selectedSecond.classList.add("hidden");
       console.log("You lost!");
+      clickCounts = 0;
     }
   }
 }
@@ -34,7 +38,8 @@ function clickItem(item) {
     } else {
       selectedSecond = value.target;
       selectedSecond.classList.remove("hidden");
-      checkItems();
+      setTimeout(checkItems, 1000);
+      clicked = true;
     }
 
     console.log("Click counts: ", clickCounts);
